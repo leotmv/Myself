@@ -1,0 +1,70 @@
+/* when you need to add some property in your table,
+img or something you want,
+you need to create a class in your HTML code.
+When you create it, you'll be able to add an especifc 
+property to that class, witch it means that property 
+will work for an especific part of your code, or element.
+You can add lot of class, just use another name and use a single space
+like: class= leonardo teixeira <- teixeira is another class.
+But, if you want to add a name to your tags you'll need to
+use ids*/
+
+body {
+    background-color: #2b92e1;
+}
+
+hr {
+    background-color: #b4dfff;
+    border-color: #ecbff6;
+    border-width: 8px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 3%
+}
+
+h1 {
+    color: #953b3b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px #3F0071;
+}
+
+h3 {
+    color: #02025d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+th,
+td {
+    padding: 1px;
+    text-align: center;
+}
+
+ul,
+li {
+    color: black;
+}
+
+/* here's the class example*/
+.table {
+    border-bottom-style: dotted;
+}
+
+/*here's the id example*/
+#linkedin {
+    color: #02025d;
+}
+
+h3 :hover{
+    background-color: yellow;
+}
